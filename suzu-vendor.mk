@@ -13,11 +13,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/suzu/proprietary/vendor/etc/acdbdata/Sony_loire_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_loire_Hdmi_cal.acdb \
     vendor/sony/suzu/proprietary/vendor/etc/acdbdata/Sony_loire_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_loire_Headset_cal.acdb \
     vendor/sony/suzu/proprietary/vendor/etc/acdbdata/Sony_loire_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_loire_Speaker_cal.acdb \
-    vendor/sony/suzu/proprietary/etc/firmware/touch_module_id_0x90.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_module_id_0x90.img \
-    vendor/sony/suzu/proprietary/etc/firmware/touch_module_id_0x91.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_module_id_0x91.img \
-    vendor/sony/suzu/proprietary/etc/firmware/touch_module_id_0x92.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_module_id_0x92.img \
-    vendor/sony/suzu/proprietary/etc/firmware/touch_module_id_0x93.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_module_id_0x93.img \
-    vendor/sony/suzu/proprietary/etc/firmware/touch_module_id_0x94.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_module_id_0x94.img \
     vendor/sony/suzu/proprietary/odm/lib/libchromatix_imx214_common.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx214_common.so \
     vendor/sony/suzu/proprietary/odm/lib/libchromatix_imx214_cpp_liveshot.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx214_cpp_liveshot.so \
     vendor/sony/suzu/proprietary/odm/lib/libchromatix_imx214_cpp_preview.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx214_cpp_preview.so \
@@ -30,5 +25,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/suzu/proprietary/odm/lib/libchromatix_imx214_snapshot.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx214_snapshot.so \
     vendor/sony/suzu/proprietary/odm/lib/libchromatix_imx214_video.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx214_video.so \
     vendor/sony/suzu/proprietary/odm/lib/libmmcamera_imx214.so:$(TARGET_COPY_OUT_ODM)/lib/libmmcamera_imx214.so \
+    vendor/sony/suzu/proprietary/system/etc/firmware/touch_module_id_0x90.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_module_id_0x90.img \
+    vendor/sony/suzu/proprietary/system/etc/firmware/touch_module_id_0x91.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_module_id_0x91.img \
+    vendor/sony/suzu/proprietary/system/etc/firmware/touch_module_id_0x92.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_module_id_0x92.img \
+    vendor/sony/suzu/proprietary/system/etc/firmware/touch_module_id_0x93.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_module_id_0x93.img \
+    vendor/sony/suzu/proprietary/system/etc/firmware/touch_module_id_0x94.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_module_id_0x94.img \
     vendor/sony/suzu/proprietary/vendor/bin/qns:$(TARGET_COPY_OUT_VENDOR)/bin/qns \
     vendor/sony/suzu/proprietary/vendor/lib/libactuator_lc898217xc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898217xc.so
