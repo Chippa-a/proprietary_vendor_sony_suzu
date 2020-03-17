@@ -18,4 +18,17 @@ PRODUCT_COPY_FILES += \
     vendor/sony/suzu/proprietary/etc/firmware/touch_module_id_0x92.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_module_id_0x92.img \
     vendor/sony/suzu/proprietary/etc/firmware/touch_module_id_0x93.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_module_id_0x93.img \
     vendor/sony/suzu/proprietary/etc/firmware/touch_module_id_0x94.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_module_id_0x94.img \
-    vendor/sony/suzu/proprietary/vendor/bin/qns:$(TARGET_COPY_OUT_VENDOR)/bin/qns
+    vendor/sony/suzu/proprietary/odm/lib/libchromatix_imx214_common.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx214_common.so \
+    vendor/sony/suzu/proprietary/odm/lib/libchromatix_imx214_cpp_liveshot.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx214_cpp_liveshot.so \
+    vendor/sony/suzu/proprietary/odm/lib/libchromatix_imx214_cpp_preview.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx214_cpp_preview.so \
+    vendor/sony/suzu/proprietary/odm/lib/libchromatix_imx214_cpp_snapshot.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx214_cpp_snapshot.so \
+    vendor/sony/suzu/proprietary/odm/lib/libchromatix_imx214_cpp_video.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx214_cpp_video.so \
+    vendor/sony/suzu/proprietary/odm/lib/libchromatix_imx214_default_preview_lc898217.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx214_default_preview_lc898217.so \
+    vendor/sony/suzu/proprietary/odm/lib/libchromatix_imx214_default_video_lc898217.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx214_default_video_lc898217.so \
+    vendor/sony/suzu/proprietary/odm/lib/libchromatix_imx214_postproc.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx214_postproc.so \
+    vendor/sony/suzu/proprietary/odm/lib/libchromatix_imx214_preview.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx214_preview.so \
+    vendor/sony/suzu/proprietary/odm/lib/libchromatix_imx214_snapshot.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx214_snapshot.so \
+    vendor/sony/suzu/proprietary/odm/lib/libchromatix_imx214_video.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx214_video.so \
+    vendor/sony/suzu/proprietary/odm/lib/libmmcamera_imx214.so:$(TARGET_COPY_OUT_ODM)/lib/libmmcamera_imx214.so \
+    vendor/sony/suzu/proprietary/vendor/bin/qns:$(TARGET_COPY_OUT_VENDOR)/bin/qns \
+    vendor/sony/suzu/proprietary/vendor/lib/libactuator_lc898217xc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898217xc.so
