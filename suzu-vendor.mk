@@ -6,13 +6,13 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/sony/suzu
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/suzu/proprietary/etc/acdbdata/Sony/Sony_loire_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/Sony/Sony_loire_Bluetooth_cal.acdb \
-    vendor/sony/suzu/proprietary/etc/acdbdata/Sony/Sony_loire_General_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/Sony/Sony_loire_General_cal.acdb \
-    vendor/sony/suzu/proprietary/etc/acdbdata/Sony/Sony_loire_Global_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/Sony/Sony_loire_Global_cal.acdb \
-    vendor/sony/suzu/proprietary/etc/acdbdata/Sony/Sony_loire_Handset_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/Sony/Sony_loire_Handset_cal.acdb \
-    vendor/sony/suzu/proprietary/etc/acdbdata/Sony/Sony_loire_Hdmi_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/Sony/Sony_loire_Hdmi_cal.acdb \
-    vendor/sony/suzu/proprietary/etc/acdbdata/Sony/Sony_loire_Headset_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/Sony/Sony_loire_Headset_cal.acdb \
-    vendor/sony/suzu/proprietary/etc/acdbdata/Sony/Sony_loire_Speaker_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/Sony/Sony_loire_Speaker_cal.acdb \
+    vendor/sony/suzu/proprietary/vendor/etc/acdbdata/Sony_loire_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_loire_Bluetooth_cal.acdb \
+    vendor/sony/suzu/proprietary/vendor/etc/acdbdata/Sony_loire_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_loire_General_cal.acdb \
+    vendor/sony/suzu/proprietary/vendor/etc/acdbdata/Sony_loire_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_loire_Global_cal.acdb \
+    vendor/sony/suzu/proprietary/vendor/etc/acdbdata/Sony_loire_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_loire_Handset_cal.acdb \
+    vendor/sony/suzu/proprietary/vendor/etc/acdbdata/Sony_loire_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_loire_Hdmi_cal.acdb \
+    vendor/sony/suzu/proprietary/vendor/etc/acdbdata/Sony_loire_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_loire_Headset_cal.acdb \
+    vendor/sony/suzu/proprietary/vendor/etc/acdbdata/Sony_loire_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_loire_Speaker_cal.acdb \
     vendor/sony/suzu/proprietary/etc/firmware/touch_module_id_0x90.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_module_id_0x90.img \
     vendor/sony/suzu/proprietary/etc/firmware/touch_module_id_0x91.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_module_id_0x91.img \
     vendor/sony/suzu/proprietary/etc/firmware/touch_module_id_0x92.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_module_id_0x92.img \
